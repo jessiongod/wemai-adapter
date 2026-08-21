@@ -1,4 +1,4 @@
-{
+﻿{
   "manifest_version": 2,
   "version": "0.2.0",
   "name": "WeMai Adapter 微信适配器",
@@ -11,7 +11,7 @@
   "urls": {
     "repository": "https://github.com/jessiongod/wemai-adapter",
     "homepage": "https://github.com/jessiongod/wemai-adapter",
-    "documentation": "https://github.com/jessiongod/wemai-adapter/blob/main/README.md",
+    "documentation": "https://github.com/jessiongod/wemai-adapter/blob/master/README.md",
     "issues": "https://github.com/jessiongod/wemai-adapter/issues"
   },
   "host_application": {
