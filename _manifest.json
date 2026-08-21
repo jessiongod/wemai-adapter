@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "version": "0.2.0",
+  "name": "WeMai Adapter 微信适配器",
+  "description": "微信个人号适配器（OneBot v11 WS 客户端）：配合 WeFlow + bridge 把微信私聊/群聊桥接到 MaiBot，无需 DLL 注入、无需 Hook 微信进程，支持最新版微信 4.1.x。",
+  "author": {
+    "name": "jessiongod",
+    "url": "https://github.com/jessiongod"
+  },
+  "license": "GPL-v3.0-or-later",
+  "urls": {
+    "repository": "https://github.com/jessiongod/wemai-adapter",
+    "homepage": "https://github.com/jessiongod/wemai-adapter",
+    "documentation": "https://github.com/jessiongod/wemai-adapter/blob/main/README.md",
+    "issues": "https://github.com/jessiongod/wemai-adapter/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.7.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [
+    {
+      "type": "python_package",
+      "name": "websockets",
+      "version_spec": ">=12.0"
+    }
+  ],
+  "capabilities": [
+    "platform:duplex",
+    "platform:receive",
+    "platform:send"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": ["zh-CN", "en-US"]
+  },
+  "id": "github.jessiongod.wemai-adapter",
+  "plugin_type": "adapter"
+}

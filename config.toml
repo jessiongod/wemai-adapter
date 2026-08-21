@@ -1,0 +1,32 @@
+[plugin]
+enabled = true
+config_version = "0.1.0"
+diagnostic_test_inject_on_load = false
+
+[server]
+host = "127.0.0.1"
+port = 7999
+token = "你的随机token，与 bridge 的 ob_server_token 保持一致"
+debug_spy = false
+auto_launch_wcf = false
+block_on_login = false
+rpc_timeout_ms = 15000
+
+[chat]
+enable_chat_list_filter = false
+private_list_type = "blacklist"
+private_list = []
+group_list_type = "blacklist"
+group_list = []
+
+[filters]
+ignore_self_message = true
+accepted_msg_types = [
+    "text",
+    "image",
+    "voice",
+    "video",
+    "file",
+    "emotion",
+    "card",
+]
